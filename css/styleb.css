@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{box-sizing: border-box;}
+
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2B1;
+    --bluelight-color:rgba(0,178,209,0.47);
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+    --purplelight-color:rgba(117, 41, 149, 0.45);
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.header-logo img{
+    max-width: 300px;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: end;
+}
+
+.btn-primary{
+    width: 120px;
+    color: var(--dark-color);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    color: var(--blue-color);
+    background-color:var(--white-color);
+    border-color: var(--blue-color)
+}
+
+.btn-outline-primary{
+    width: 140px;
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--purple-color);
+    border-color: var(--white-color);
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-item a{
+    font-size:18px;
+}
+
+#agenda{
+    margin-top: 0.1rem; 
+}
+
+.agenda-cita{
+    background-image: url(../img/fondo.jpg);
+    padding: 3rem;
+}
+.agenda-cita h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.agenda-promocion{
+    background-color: var(--purple-color);
+    padding: 3rem;
+}
+
+.agenda-promocion h1{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    text-shadow: 2px 2px 2px var(--dark-color);
+}
+
+.agenda-promocion img{
+    border: 7px solid var(--white-color);
+}
+
+.tseccion{
+    color: var(--purple-color);
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px var(--dark-color);
+}
+.card{
+    border: none;
+}
+.card img{
+    max-width: 200px;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.card-title{
+    color: var(--purple-color);
+}
+
+.boxfooter{
+    background-image: url(../img/fondo.jpg);
+}
+
+.box-footer{
+    background-color: var(--purplelight-color);
+    padding: 3rem 0;
+    color: white;
+    font-size: 16px;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.fondotips{
+    background-image: url(../img/Frame\ 2\ \(1\).svg);
+    background-repeat: no-repeat;
+    padding: 45px;
+}
+.cardtip1{
+    background-color: var(--purplelight-color);
+    border-radius: 30px;
+}
+
+.cardtip2{
+    background-color: var(--bluelight-color);
+    border-radius: 30px;
+}
+
+.cardtip1 img,.cardtip2 img{
+margin-left: 5px;
+}
+
+.formcontacto{
+    background-color:var(--purplelight-color);
+    box-shadow: 1px 1px 2px var(--purple-color);
+    padding: 15px 48px;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontacto label{
+    color: var(--purple-color);
+    font-weight: 700;
+    margin: 0;
+}
+
+#mensajeform{
+    height: 100px;
+}
+
+.enviarform{
+    background-color: var(--purple-color);
+    border-radius: 5px;
+    border-style: none;
+    color: var(--white-color);
+    margin: auto;
+}
+
+.contenedorl{
+    background-color: rgba(156, 154, 154, 0.178);
+    box-shadow: 1px 1px 2px var(--dark-color);
+    color: var(--purple-color);
+}
+
+.iconlogin i{
+    background-color: var(--white-color);
+    padding: 0.7rem 1rem;
+    color: var(--purple-color);
+    border: 4px solid var(--gray-color);
+}
+
+.login-b-ingresar{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.registro-b-ingresar{
+    width: 100%;
+    margin: 5px 0;
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+
+.usuario-dash{
+    color: var(--purple-color);
+    display: flex;
+    text-align: end;
+}
+
+.usuario-dash i{
+    color: var(--purple-color);
+}
+
+.img-dash{
+    border: 3px solid var(--purple-color);
+}
+
+.menu-dash a{
+    color:var(--ligh-color);
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+.menu-dash a:hover{
+    background-color: var(--purple-color);
+    border-left: 3px solid var(--white-color);
+    padding-left: 40px;
+    transition: all 2s;
+    color: var(--ligh-color);
+}
+.contenido-dash p{
+    text-align: justify;
+}
+
+.btnazul{
+    padding: 0.5rem;
+    font-size: 00.8rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--blue-color);
+}
+
+.btnmorado{
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.btnmorado:hover{
+    color: var(--white-color);
+}
+
+.table th{
+    border: 2px solid var(--dark-color);
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    padding: 7px 0; 
+}
+
+.table td{
+    border: 2px solid var(--dark-color);
+    text-align: center;
+    font-weight: 900;
+}
+
+
+@media (min-width: 992px){
+    .dash{
+        height: 84vh;
+    }
+}
+
+
