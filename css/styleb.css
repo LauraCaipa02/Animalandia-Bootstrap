@@ -178,8 +178,9 @@ margin-left: 5px;
 
 .contenedorl{
     background-color: rgba(156, 154, 154, 0.178);
-    box-shadow: 1px 1px 2px var(--dark-color);
+    box-shadow: 2px 2px 7px var(--dark-color);
     color: var(--purple-color);
+    margin: 10px 0;
 }
 
 .iconlogin i{
@@ -257,21 +258,29 @@ margin-left: 5px;
 
 .table th{
     border: 2px solid var(--dark-color);
-    background-color: var(--purple-color);
-    color: var(--white-color);
+    background-color:var(--purplelight-color);
     padding: 7px 0; 
 }
 
 .table td{
     border: 2px solid var(--dark-color);
     text-align: center;
-    font-weight: 900;
+    font-weight: 700;
 }
 
+.cono{
+    font-size: 280px;
+}
 
+@media (min-width: 768px){
+    .contenido-dash{
+        height: 59.3vh;
+    }
+
+}
 @media (min-width: 992px){
-    .dash{
-        height: 84vh;
+    .contenido-dash{
+        height: 85.4vh;
     }
 }
 
