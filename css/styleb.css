@@ -272,12 +272,6 @@ margin-left: 5px;
     font-size: 280px;
 }
 
-@media (min-width: 768px){
-    .contenido-dash{
-        height: 59.3vh;
-    }
-
-}
 @media (min-width: 992px){
     .contenido-dash{
         height: 85.4vh;
